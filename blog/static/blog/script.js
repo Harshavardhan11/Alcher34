@@ -89,3 +89,88 @@ button.onclick = function(){
   });
 });
 
+
+ $(document).ready(function(){
+  $("#heart2").click(function(){
+    if($("#heart2").hasClass("liked")){
+      $("#heart2").html('<i class="fa fa-heart-o" aria-hidden="true"></i>');
+      $("#heart2").removeClass("liked");
+    }else{
+      $("#heart2").html('<i class="fa fa-heart" aria-hidden="true"></i>');
+      $("#heart2").addClass("liked");
+    }
+  });
+});
+
+ $(document).ready(function(){
+  $("#heart3").click(function(){
+    if($("#heart3").hasClass("liked")){
+      $("#heart3").html('<i class="fa fa-heart-o" aria-hidden="true"></i>');
+      $("#heart3").removeClass("liked");
+    }else{
+      $("#heart3").html('<i class="fa fa-heart" aria-hidden="true"></i>');
+      $("#heart3").addClass("liked");
+    }
+  });
+});
+
+ $(document).ready(function(){
+  $("#heart4").click(function(){
+    if($("#heart4").hasClass("liked")){
+      $("#heart4").html('<i class="fa fa-heart-o" aria-hidden="true"></i>');
+      $("#heart4").removeClass("liked");
+    }else{
+      $("#heart4").html('<i class="fa fa-heart" aria-hidden="true"></i>');
+      $("#heart4").addClass("liked");
+    }
+  });
+});
+
+ $(document).ready(function(){
+  $("#heart5").click(function(){
+    if($("#heart5").hasClass("liked")){
+      $("#heart5").html('<i class="fa fa-heart-o" aria-hidden="true"></i>');
+      $("#heart5").removeClass("liked");
+    }else{
+      $("#heart5").html('<i class="fa fa-heart" aria-hidden="true"></i>');
+      $("#heart5").addClass("liked");
+    }
+  });
+});
+
+ $(document).ready(function(){
+  $("#heart6").click(function(){
+    if($("#heart6").hasClass("liked")){
+      $("#heart6").html('<i class="fa fa-heart-o" aria-hidden="true"></i>');
+      $("#heart6").removeClass("liked");
+    }else{
+      $("#heart6").html('<i class="fa fa-heart" aria-hidden="true"></i>');
+      $("#heart6").addClass("liked");
+    }
+  });
+});
+
+ $(document).ready(function(){
+  $("#heart7").click(function(){
+    if($("#heart7").hasClass("liked")){
+      $("#heart7").html('<i class="fa fa-heart-o" aria-hidden="true"></i>');
+      $("#heart7").removeClass("liked");
+    }else{
+      $("#heart7").html('<i class="fa fa-heart" aria-hidden="true"></i>');
+      $("#heart7").addClass("liked");
+    }
+  });
+});
+
+
+ $(document).ready(function(){
+  $("#heart8").click(function(){
+    if($("#heart8").hasClass("liked")){
+      $("#heart8").html('<i class="fa fa-heart-o" aria-hidden="true"></i>');
+      $("#heart8").removeClass("liked");
+    }else{
+      $("#heart8").html('<i class="fa fa-heart" aria-hidden="true"></i>');
+      $("#heart8").addClass("liked");
+    }
+  });
+});
